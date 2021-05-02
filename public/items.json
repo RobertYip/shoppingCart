@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Bear",
+        "img": [
+            "item-bear1.png",
+            "item-bear2.png",
+            "item-bear3.png"
+        ],
+        "type": "Animal",
+        "desc": "This soft, adorable bear will warm your heart.",
+        "price": 19.99
+    },
+    {
+        "name": "Blue Flower",
+        "img": [
+            "item-blueflower1.png",
+            "item-blueflower2.png"
+        ],
+        "type": "Flower",
+        "desc": "A flower that will take the blue for you.",
+        "price": 4.99
+    },
+    {
+        "name": "Violet Flower",
+        "img": [
+            "item-pinkflower1.png",
+            "item-pinkflower2.png"
+        ],
+        "type": "Flower",
+        "desc": "Roses are red, and some violets are violet.",
+        "price": 3.99
+    },
+    {
+        "name": "Ring",
+        "img": [
+            "item-ring1.png",
+            "item-ring2.png"
+        ],
+        "type": "Jewelry",
+        "desc": "Sometimes it is worth it to pull the trigger.",
+        "price": 500
+    },
+    {
+        "name": "Smiley Figure",
+        "img": [
+            "item-smiley1.png",
+            "item-smiley2.png"
+        ],
+        "type": "Decoration",
+        "desc": "A friendly gift to give a smile.",
+        "price": 9.99
+    },
+    {
+        "name": "Strawberry",
+        "img": [
+            "item-strawberry1.png",
+            "item-strawberry2.png",
+            "item-strawberry3.png"
+        ],
+        "type": "Decoration",
+        "desc": "A beaded gift that may have other uses.",
+        "price": 0.99
+    }
+]

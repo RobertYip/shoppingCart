@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop for Valentine's</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Poppins|Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="nav">
+        <a class="about" role="button" href="https://github.com/RobertYip/MyWebsite/tree/master/shoppingCart"
+            target="_blank" data-toggle="tooltip" data-placement="bottom" title="Go to GitHub">about</a>
+        <a class="back" role="button" href="https://robertyip.com" data-toggle="tooltip" data-placement="bottom"
+            title="Back to Home">back to main</a>
+    </div>
+    <div class="header">
+        <h1>&#9825; la boutique de la saint valentin</h1>
+    </div>
+    <!-- Filter -->
+    <div class="container">
+        <section id="item-filter">
+            <!-- <form> Not sure if this should be used-->
+            <div>
+                <h3>Type</h3>
+                <div id="filter-type"></div>
+            </div>
+            <div>
+                <h3>Price</h3>
+                <div id="filter-price">
+                    <label for="filter-min-price">Min</label>
+                    <span>$ <input type="number" name="filter-min-price" min="0" maxlength="4" max="9999"
+                            class="filter-maxmin"></span>
+
+                    <label for="filter-max-price">Max</label>
+                    <span>$ <input type="number" name="filter-max-price" min="0" maxlength="4" max="9999"
+                            class="filter-maxmin"></span>
+                </div>
+            </div>
+            <div class="filter-buttons">
+                <button id="clear-filter-button">Clear All</button>
+                <button id="filter-button">Apply Filter</button>
+            </div>
+            <!-- </form> -->
+        </section>
+    </div>
+    <!-- Items and Cart -->
+    <div class="container">
+        <section id="item-section">
+        </section>
+        <!-- SubTotal -->
+        <section id="cart">
+            <div id="cart-items">
+                <div class="cart-header">
+                    <span class="cart-column cart-item">ITEM</span>
+                    <span class="cart-column cart-price">PRICE</span>
+                    <span class="cart-column cart-quantity">#</span>
+                    <span class="cart-column cart-total-price">TOTAL</span>
+                    <span class="cart-column"></span>
+                </div>
+            </div>
+            <div id="totals">
+                <div class="cart-amount-rows">
+                    <span class="cart-amount-label">SUBTOTAL</span>
+                    <span id="cart-subtotal">0</span>
+                </div>
+                <div class="cart-amount-rows">
+                    <span class="cart-amount-label" id="tax-label">TAXES</span>
+                    <span id="cart-taxes">0</span>
+                </div>
+                <div class="cart-amount-rows">
+                    <span class="cart-amount-label" id="total-label">TOTAL</span>
+                    <span id="cart-total">0</span>
+                </div>
+            </div>
+            <div id="purchase">
+                <button class="clear-button"><span>CLEAR</span></button>
+                <button class="purchase-button"><span>BUY</span></button>
+            </div>
+        </section>
+
+    </div>
+
+    <script type="text/javascript" src="shoppingCart.js"></script>
+    <!-- <script type="text/javascript" src="items.json"></script> -->
+</body>
+
+</html>
